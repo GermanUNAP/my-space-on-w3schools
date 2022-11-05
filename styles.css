@@ -1,0 +1,11 @@
+*{
+    background: black;
+    color: white;
+}
+.toolbar{
+    list-style-type: none;
+    display: flex;
+}
+.list1{
+    text-align: left;
+}
