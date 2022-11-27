@@ -1,11 +1,38 @@
 *{
-    background: black;
-    color: white;
+    margin: 0px;
+    padding: 0;
 }
-.toolbar{
+header{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+}
+#toolbar{
     list-style-type: none;
+    display: flex;
+    padding-top: 1%;
+    background: black;
+    height: 70px;
+
+}
+li{
+    list-style: none;
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+ul{
     display: flex;
 }
 .list1{
-    text-align: left;
+    margin-right: 5%;
+}
+.list2{
+    margin-left: 5%;
+}
+.foto{
+    height: 80%;
+    width: 80%;
 }
